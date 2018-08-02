@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sherry Yang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/rest.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Markazi+Text|Roboto" rel="stylesheet">
+    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+</head>
+
+<style>
+body {
+    background-image: url(assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 2000px, 1192px;
+    display: block;
+  background-image: url('assets/images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;        
+  background-size: 100%;
+
+  /* -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); */
+}
+</style>
+
+
+<body>
+
+    <header id="masthead">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+
+                <a href="index.html" id="logo"> Sherry Yang </a>
+
+                <nav>
+                    <br>
+                    <a href="about.html" id="tab"> About </a>
+                    <a href="portfolio.html" id="tab"> Portfolio </a>
+                    <a href="contact.html" id="tab"> Contact </a>
+                </nav>
+            </div>
+        </nav>
+
+    </header>
+    <br>
+
+    <section id="banner" image="asseets/images/banner.jpg">
+        <div class="inner">
+
+            <a href="portfolio.html" class="button special scrolly">Get Started</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="container">
+                    <section class="main-section">
+                        <h1> About Me </h1>
+                        <img src="assets\images\Portfolio IMG.jpg" id="profile-img" alt="Sherry Yang">
+                        <p> Hi, i'm Sherry Yang and welcome to my portfolio web page. Follow me on my 6 month journey on coding
+                            and web development. </p>
+                        <p> I desgin and create full-stack web pages.
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <section class="sidebar">
+
+                    <div id="connect">
+                        <h2>Connect with Me</h2>
+
+                        <a href="https://www.linkedin.com/in/sherry-yang-374250117/" target="_blank">
+                            <img src="assets\images\linkedin_circle_color-256.png" id="icon">
+                        </a>
+                        <a href="https://github.com/xxsherryyy" target="_blank"></a>
+                        <img src="assets\images\mark-github-128.png" id="icon">
+                        </a>
+                        <a href="https://stackoverflow.com/users/story/9325363" target="_blank">
+                            <img src="assets\images\stackoverflow-256.png" id="icon">
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+
+        </div>
+        <!--Marquee Portfolio-->
+        <div class="slick-marquee">
+            <div class="slick-slide">
+                <div class="inner">
+                    <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78" />
+                </div>
+            </div>
+            <div class="slick-slide">
+                <div class="inner">
+                    <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78" />
+                </div>
+            </div>
+            <div class="slick-slide">
+                <div class="inner">
+                    <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78" />
+                </div>
+            </div>
+            <div class="slick-slide">
+                <div class="inner">
+                    <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78" />
+                </div>
+            </div>
+            <div class="slick-slide">
+                <div class="inner">
+                    <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78" />
+                </div>
+            </div>
+            <div class="slick-slide">
+                <div class="inner">
+                    <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78" />
+                </div>
+            </div>
+            <div class="slick-slide">
+                <div class="inner">
+                    <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78" />
+                </div>
+            </div>
+            <div class="slick-slide">
+                <div class="inner">
+                    <img src="http://placehold.it/179x78/273640/fff/" alt="Placeholder" width="179" height="78" />
+                </div>
+            </div>
+            <footer>
+                <div class="container">
+                    Copyright &copy; 2018
+                </div>
+        </div>
+
+        </footer>
+
+        <!-- scripts -->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        
+        <script>
+    jQuery(document).ready(function ($) {
+        $('.slickMarquee').slickSlide({
+            speed: 5000,
+            autoplay: true,
+            autoplaySpeed: 0,
+            centerMode: true,
+            cssEase: 'linear',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            variableWidth: true,
+            infinite: true,
+            initialSlide: 1,
+            arrows: false,
+            buttons: false
+        });
+    });
+</script>
+</body>
+
+</html>
+
